@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-<script src="jscript.js"></script>
-</head>
-<body>
-<textarea rows = "30" cols = "60" id="myInput" placeholder="Insert your text here."></textarea>
-<button id="convertbut" onclick="myFunction()">Convert Text</button>
-<button id="copybut" onclick="copytext()">Copy HTML</button>
-<p id="aa">Get your bionic text here.</p>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jscript.js"></script>
+    <title>Font Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="textarea-wrapper">
+        <textarea class="textarea" id="myInput" placeholder="Insert your text here."></textarea>
+      </div>
+      <div class="button-wrapper">
+        <button class="button convert-button" onclick="myFunction()">Convert Text</button>
+        <button class="button" onclick="copytext()">Copy HTML</button>
+      </div>
+      <div class="result-wrapper">
+        <p class="result" id="aa">Get your bionic text here.</p>
+      </div>
+    </div>
+  </body>
 </html>

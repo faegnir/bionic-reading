@@ -1,25 +1,68 @@
-#convertbut {
+body {
+  background-color: #1b1b1b;
+  color: #454545;
+  font-family: Helvetica, 'Microsoft YaHei', simsun, serif;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.textarea-wrapper {
+  margin-bottom: 20px;
+}
+
+.textarea {
+  background-color: rgb(254, 243, 241);
+  border: none;
+  border-radius: 10px;
+  color: #454545;
+  font-size: 16px;
+  height: 200px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-wrapper {
   display: flex;
-  position: relative;width:auto;
-  margin-top: 5px;margin-left: 105px;  }
-#aa{
-  position:relative; 
-  max-width: 453.5px;
-  margin-top: 10px;
-  background-color: rgb(230, 230, 230);
-  display: inline-block;
-  border: 2px solid darkslategrey;
-  width: 453.5px; padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-#copybut{
-  display: flex;
-  position:relative;
-  margin-left: 275px;
-  margin-top:-22px ;
-  width:auto;
+
+.button {
+  background-color: #454545;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease;
 }
-#myInput 
-{
-  background-color: rgb(230, 230, 230);width: 470px;height: 300px;margin-left: 1.1785px;
+
+.button:hover {
+  background-color: #303030;
 }
-body{font-family: Helvetica,'Microsoft YaHei',simsun,serif;color: #454545;line-height:1.5em; background-color: #1b1b1b;}
+
+.convert-button {
+  margin-right: 10px;
+}
+
+.result-wrapper {
+  background-color: rgb(254, 243, 241);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.result {
+  color: #454545;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+  box-sizing: border-box;
+}
